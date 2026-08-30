@@ -10,7 +10,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     
-    /* Declaración del degradado */
     background: linear-gradient(-45deg, #0f172a, #1e1b4b, #311042, #0f172a);
     background-size: 400% 400%;
     
@@ -145,7 +144,7 @@ body {
 }
 
 button{
-    background-color: #00d2d3;
+    background: linear-gradient(-45deg, #2e4780, #38328a, #7827a1, #3a599f);
     color: #ffffff;
     border: none;
     padding: 1rem 2rem;
@@ -153,8 +152,5 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 8px;
-}
-
-button:hover {
-    background-color: #00b8b9;
+    animation: cambiarFondob 15s ease infinite;
 }
