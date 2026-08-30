@@ -175,6 +175,7 @@ body {
   background-color:rgb(0, 0, 0);
   padding : 1rem;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .botoniniciar{
   background: linear-gradient(60deg, #323337, #282734, #25192c, #171f33);
@@ -195,4 +196,7 @@ body {
 }
 .margin_top1rem{
   margin-top: 1rem;
+}
+.fontf-times{
+  font-family:'Times New Roman', Times, serif;
 }
