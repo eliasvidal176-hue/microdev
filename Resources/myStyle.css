@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración del fondo animado */
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    
+    /* Declaración del degradado */
+    background: linear-gradient(-45deg, #0f172a, #1e1b4b, #311042, #0f172a);
+    background-size: 400% 400%;
+    
+    /* Animación suave del fondo */
+    animation: cambiarFondo 15s ease infinite;
+    
+    /* Centrado del contenido principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animación de movimiento del degradado */
+@keyframes cambiarFondo {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Tarjeta contenedora de ejemplo con efecto translúcido */
+.tarjeta-contenido {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2.5rem;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.tarjeta-contenido h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-contenido p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    
+    /* Efecto traslúcido para integrarse al fondo */
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
