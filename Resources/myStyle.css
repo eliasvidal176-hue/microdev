@@ -144,14 +144,55 @@ body {
   color: #ffffff;
 }
 
-button{
-    background: linear-gradient(-45deg, #2e4780, #38328a, #7827a1, #3a599f);
-    color: #ffffff;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 8px;
-    animation: cambiarFondob 15s ease infinite;
+.secbutton{
+  background: linear-gradient(-45deg, #2e4780, #38328a, #7827a1, #3a599f);
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  animation: cambiarFondob 15s ease infinite;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.Seccion2{
+  margin-top: 5rem;
+  border-top: 1px solid rgb(255, 255, 255);
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  display: flex;
+  justify-content: space-evenly;
+}
+.globo_seccion_2{
+  color : #ffffff;
+  background-color:rgb(0, 0, 0);
+  padding : 1rem;
+  border-radius: 8px;
+}
+.botoniniciar{
+  background: linear-gradient(60deg, #323337, #282734, #25192c, #171f33);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+}
+.letraslinkcrear{
+  color:blueviolet;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.margin_top1rem{
+  margin-top: 1rem;
 }
